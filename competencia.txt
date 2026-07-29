@@ -1,0 +1,4 @@
+Samuel - Desenvolvimento do sistema, mantenedor do sistema, líder do projeto.
+Fernando - Desenvolvimento do sistema, elaboração do documento.
+Raquel - Desenvolvimento da interface, elaboração do documento.
+Kassiane - Elaboração do documento.
