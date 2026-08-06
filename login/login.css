@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'Garet';
+    src: url('fontes/Garet-Book.otf') format('trutype');
+}
+
 body{
     background-color: #528AE1;
     display: flex;
@@ -5,6 +10,7 @@ body{
     justify-content: center;
     margin: 0;
     height: 100vh;
+    font-family: 'Garet', sans-serif;
 }
 
 .container{
@@ -12,5 +18,11 @@ body{
     height: 700px;
     width: 1400px;
     border-radius: 30px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(27, 44, 92);
 }
 
