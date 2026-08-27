@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boga.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <!-- FORMULÁRIO DE CADASTRO (Fica do lado esquerdo quando ativo) -->
+        <div class="signup-container">
+            <form>
+                <h1>Criar Conta</h1>
+                <input type="text" placeholder="Nome de usuário">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Senha">
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+
+        <!-- FORMULÁRIO DE LOGIN (Fica do lado direito por padrão) -->
+        <div class="login-container">
+            <form>
+                <h1>Login</h1>
+                <input type="text" placeholder="Nome de usuário">
+                <input type="password" placeholder="Senha">
+                <a href="#">Esqueceu sua senha?</a>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <!-- PAINEL AZUL DESLIZANTE -->
+        <div class="toggle-container">
+            <div class="toggle">
+                <!-- PAINEL DA ESQUERDA (Mensagem inicial + Botão de ir para Cadastro) -->
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem-vindo!</h1>
+                    <p>Não possui uma conta?</p>
+                    <button id="register">Cadastre-se</button>
+                </div>
+
+                <!-- PAINEL DA DIREITA (Mensagem que aparece ao ir para o Cadastro + Botão de voltar ao Login) -->
+                <div class="toggle-panel toggle-right">
+                    <h1>Bem-vindo de volta!</h1>
+                    <p>Já possui conta? Entre agora mesmo</p>
+                    <button id="login">Log In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="login.js"></script>
+</body>
+</html>
